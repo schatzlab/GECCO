@@ -2,12 +2,12 @@
 
 The contributions of coding mutations to tumorigenesis are relatively well known; however, little is known about somatic alterations in noncoding DNA. Here we describe GECCO (Genomic Enrichment Computational Clustering Operation) to analyze somatic noncoding alterations in 308 pancreatic ductal adenocarcinomas (PDAs) and identify commonly mutated regulatory regions. We find recurrent noncoding mutations to be enriched in PDA pathways, including axon guidance and cell adhesion, and newly identified processes, including transcription and homeobox genes. We identified mutations in protein binding sites correlating with differential expression of proximal genes and experimentally validated effects of mutations on expression. We developed an expression modulation score that quantifies the strength of gene regulation imposed by each class of regulatory elements, and found the strongest elements were most frequently mutated, suggesting a selective advantage. Our detailed single-cancer analysis of noncoding alterations identifies regulatory mutations as candidates for diagnostic and prognostic markers, and suggests new mechanisms for tumor evolution.
 
-Cite as:
+## Citation: ## 
 
 **[Recurrent noncoding regulatory mutations in pancreatic ductal adenocarcinoma](https://www.nature.com/ng/journal/v49/n6/full/ng.3861.html)**
 Feigin, ME, Garvin, T, Bailey, P, Waddell, N, Chang, DK, Kelley, DR, Shuai, S, Gallinger, S, McPherson, JD, Grimmond, SM, Khurana, E, Stein, LD, Biankin, AV, Schatz, MC, Tuveson, DA (2017) Nature Genetics doi:10.1038/ng.3861
 
-Running GECCO:
+## Running GECCO: ##
 
 1. Download GECCO scripts from Github
 
@@ -32,3 +32,7 @@ Running GECCO:
 6. Enter the directory containing the results of your FunSeq2 run and run "gecco.sh".
 
 7. Once the qsub jobs have all finished, enter the directory containing the results of your FunSeq2 run and run "calculate_false_discovery.sh".
+
+## Getting Help ## 
+
+Please submit any issues or pull requests using the links above
